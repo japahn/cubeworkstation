@@ -27,7 +27,7 @@ class CardPile(object):
         return CardPile(name if name else 'Drawn', drawn_cards)
 
     def __add__(self, other):
-        name = '%s + %s' % (self.name(), other.name())
+        name = '(%s + %s)' % (self.name(), other.name())
         cards = self.cards() + other.cards()
         return CardPile(name, cards)
 
@@ -39,7 +39,7 @@ class CardPile(object):
 
         for i in xrange(denominator):
             piece_i = i + 1
-            name = '%s (piece %d/%d)' % (self.name(), piece_i, denominator)
+            name = '(%s piece %d/%d)' % (self.name(), piece_i, denominator)
             pile = self.draw_cards(cards_per_pile, name)
             all_piles.append(pile)
         return all_piles
