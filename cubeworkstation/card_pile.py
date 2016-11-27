@@ -15,6 +15,9 @@ class CardPile(object):
     def size(self):
         return len(self._cards)
 
+    def rename(self, new_name):
+        self._pile_name = new_name
+
     def shuffle(self):
         self._cards = sample(self._cards, len(self._cards))
 
@@ -42,7 +45,7 @@ class CardPile(object):
         return all_piles
 
     def __str__(self):
-        string_repr = '-- Pile %s (%d) --\n' % (self._pile_name, self.size())
+        string_repr = '-- %s (%d) --\n' % (self._pile_name, self.size())
         for card in self._cards:
             string_repr += str(card) + '\n'
         string_repr += '-- end --'

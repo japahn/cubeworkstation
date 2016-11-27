@@ -4,7 +4,7 @@ class TheCube(object):
     def __init__(self):
         self.cube = build_cube()
 
-    def make_boosters_for_players(self, num_players):
+    def good_stuff_draft(self, num_players):
         all_boosters = []
 
         main_pile = self.cube.sections()['mod_main'].create_pile()
@@ -19,5 +19,8 @@ class TheCube(object):
             player_pile.shuffle()
             boosters = player_pile / 3
             all_boosters.extend(boosters)
+
+        for i, booster in enumerate(all_boosters):
+            booster.rename('Booster %d' % (i + 1))
 
         return all_boosters
