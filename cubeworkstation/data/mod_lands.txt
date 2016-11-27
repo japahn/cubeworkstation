@@ -1,0 +1,72 @@
+Celestial Colonnade
+Flooded Strand
+Glacial Fortress
+Hallowed Fountain
+Prairie Stream
+Creeping Tar Pit
+Drowned Catacomb
+Polluted Delta
+Sunken Hollow
+Watery Grave
+Blood Crypt
+Bloodstained Mire
+Dragonskull Summit
+Lavaclaw Reaches
+Smoldering Marsh
+Cinder Glade
+Raging Ravine
+Rootbound Crag
+Stomping Ground
+Wooded Foothills
+Canopy Vista
+Stirring Wildwood
+Sunpetal Grove
+Temple Garden
+Windswept Heath
+Caves of Koilos
+Godless Shrine
+Isolated Chapel
+Shambling Vent
+Temple of Silence
+Hissing Quagmire
+Llanowar Wastes
+Overgrown Tomb
+Temple of Malady
+Woodland Cemetery
+Breeding Pool
+Hinterland Harbor
+Lumbering Falls
+Temple of Mystery
+Yavimaya Coast
+Shivan Reef
+Steam Vents
+Sulfur Falls
+Temple of Epiphany
+Wandering Fumarole
+Battlefield Forge
+Clifftop Retreat
+Needle Spires
+Sacred Foundry
+Temple of Triumph
+Savage Lands
+Jungle Shrine
+Seaside Citadel
+Arcane Sanctum
+Crumbling Necropolis
+Mystic Monastery
+Nomad Outpost
+Sandsteppe Citadel
+Opulent Palace
+Frontier Bivouac
+City of Brass
+Desert
+Evolving Wilds
+Faerie Conclave
+Gemstone Mine
+Ghitu Encampment
+Mishra's Factory
+Nephalia Drownyard
+Terramorphic Expanse
+Treetop Village
+Wasteland
+Westvale Abbey
