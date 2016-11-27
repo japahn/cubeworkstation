@@ -6,4 +6,4 @@ class TheCube(object):
         self.cube = Cube()
 
     def make_boosters(self, num_boosters):
-        return [CardPile([]) for _ in xrange(num_boosters)]
+        return [CardPile('Booster %d' % (i + 1), []) for i in xrange(num_boosters)]
