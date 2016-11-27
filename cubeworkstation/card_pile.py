@@ -1,3 +1,5 @@
+from random import sample
+
 class CardPile(object):
 
     def __init__(self, name, cards):
@@ -13,6 +15,9 @@ class CardPile(object):
 
     def size(self):
         return len(self._cards)
+
+    def draw_cards(self, num_cards):
+        return sample(self.cards(), num_cards)
 
     def __str__(self):
         if self._string_repr is None:
