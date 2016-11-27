@@ -43,4 +43,10 @@ def build_cube():
 
 if __name__ == '__main__':
     cube = build_cube()
+    sections = cube.sections()
+    section_names_sorted = sorted(sections.keys())
+    for section_name in section_names_sorted:
+        section = sections[section_name]
+        print section
+        print
     print cube

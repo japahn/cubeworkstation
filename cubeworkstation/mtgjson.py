@@ -9,7 +9,14 @@ SECTION_OTHER = '6. Other'
 
 _OVERRIDES = {
     'Quenchable Fire': SECTION_R,
+    'Soulfire Grand Master': SECTION_W,
+    'Brutal Hordechief': SECTION_B,
+    'Alesha, Who Smiles at Death': SECTION_R,
+    'Warden of the First Tree': SECTION_G,
+    'Yasova Dragonclaw': SECTION_G,
     'Kird Ape': SECTION_OTHER,
+    'Scrapheap Scrounger': SECTION_OTHER,
+    'Cranial Plating': SECTION_OTHER,
 }
 
 _SECTION_PER_IDENTITY = {
