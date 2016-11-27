@@ -7,10 +7,10 @@ class Cube(object):
     def sections(self):
         return self._sections
 
-    def add_section(self, pile):
-        self._sections[pile.name()] = pile
-        self._section_order.append(pile.name())
-        self._card_count += pile.size()
+    def add_section(self, pool):
+        self._sections[pool.name()] = pool
+        self._section_order.append(pool.name())
+        self._card_count += pool.size()
 
     def __str__(self):
         string_repr = '-- Cube (%d) --\n' % self._card_count

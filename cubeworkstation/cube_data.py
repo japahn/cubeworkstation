@@ -1,5 +1,5 @@
 from card import Card
-from card_pile import CardPile
+from card_pool import CardPool
 from cube import Cube
 
 def read_text_pool(section_name, file_name):
@@ -7,8 +7,8 @@ def read_text_pool(section_name, file_name):
         lines = f.readlines()
     lines = map(lambda s: s.strip(), lines)
     cards = map(lambda s: Card(s), lines)
-    card_pile = CardPile(section_name, cards)
-    return card_pile
+    card_pool = CardPool(section_name, cards)
+    return card_pool
 
 def build_cube():
     cube = Cube()
