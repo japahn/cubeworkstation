@@ -1,10 +1,15 @@
 import json
 
-SECTION_OTHER = 'other'
-SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G = 'wubrg'
+SECTION_W = '1. W'
+SECTION_U = '2. U'
+SECTION_B = '3. B'
+SECTION_R = '4. R'
+SECTION_G = '5. G'
+SECTION_OTHER = '6. Other'
 
 _OVERRIDES = {
     'Quenchable Fire': SECTION_R,
+    'Kird Ape': SECTION_OTHER,
 }
 
 _SECTION_PER_IDENTITY = {
@@ -27,6 +32,8 @@ class CardDatabase(object):
         return self._db
 
 
+_SPLIT_CARD_SEPARATOR = ' // '
+
 ALL_CARDS = CardDatabase()
 
 
@@ -39,7 +46,15 @@ def get_section(card_name):
     if override is not None:
         return override
 
-    card_info =  ALL_CARDS.get()[card_name]
+    if _SPLIT_CARD_SEPARATOR in card_name:
+        card_name1, card_name2 = card_name.split(_SPLIT_CARD_SEPARATOR)
+        section1, section2 = get_section(card_name1), get_section(card_name2)
+        if section1 == section2:
+            return section1
+        else:
+            return SECTION_OTHER
+
+    card_info = ALL_CARDS.get()[card_name]
 
     supertypes_and_types = get_supertypes_and_types(card_info)
     if 'Land' in supertypes_and_types:
@@ -94,5 +109,11 @@ if __name__ == '__main__':
 
     # Legendary Snow Land
     assert get_section('Dark Depths') == SECTION_OTHER
+
+    # Mono-color split card
+    assert get_section('Dead // Gone') == SECTION_R
+
+    # Multicolor split card
+    assert get_section('Life // Death') == SECTION_OTHER
 
     print 'OK'
