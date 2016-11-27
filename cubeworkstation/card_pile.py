@@ -6,6 +6,10 @@ class CardPile(object):
         self._pile_name = name
         self._cards = list(cards)
 
+    @classmethod
+    def empty(cls):
+        return cls('Empty', [])
+
     def name(self):
         return self._pile_name
 
