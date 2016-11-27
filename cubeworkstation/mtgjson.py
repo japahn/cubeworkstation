@@ -8,13 +8,20 @@ SECTION_G = '5. G'
 SECTION_OTHER = '6. Other'
 
 _OVERRIDES = {
+    # Opponent action
     'Quenchable Fire': SECTION_R,
+
+    # Multicolored by optional ability
     'Soulfire Grand Master': SECTION_W,
     'Brutal Hordechief': SECTION_B,
     'Alesha, Who Smiles at Death': SECTION_R,
     'Warden of the First Tree': SECTION_G,
     'Yasova Dragonclaw': SECTION_G,
+
+    # De facto multicolored due to text
     'Kird Ape': SECTION_OTHER,
+
+    # Artifacts with activation costs
     'Scrapheap Scrounger': SECTION_OTHER,
     'Cranial Plating': SECTION_OTHER,
 }
