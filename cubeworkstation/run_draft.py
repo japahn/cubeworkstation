@@ -1,9 +1,10 @@
+from booster_output import output_boosters
 from the_cube import TheCube
 
-cube = TheCube()
 
-boosters = cube.good_stuff_draft(4)
-for booster in boosters:
-    print booster
-    print
+if __name__ == '__main__':
+    cube = TheCube()
 
+    boosters = cube.good_stuff_draft(8)
+
+    output_boosters('output/boosters.html', boosters)

@@ -5,14 +5,16 @@ from card_pool import CardPool
 from cube import Cube
 import mtgjson
 
+DATA_DIR = 'cubeworkstation/data'
+
 _MODULES = {}
-_MODULES['mod_lands'] = 'data/mod_lands.txt'
-_MODULES['mod_main'] = 'data/mod_main.txt'
-_MODULES['mod_simple'] = 'data/mod_simple.txt'
-_MODULES['module1'] = 'data/module1.txt'
-_MODULES['module2'] = 'data/module2.txt'
-_MODULES['module3'] = 'data/module3.txt'
-_MODULES['module4'] = 'data/module4.txt'
+_MODULES['mod_lands'] = '%s/mod_lands.txt' % DATA_DIR
+_MODULES['mod_main'] = '%s/mod_main.txt' % DATA_DIR
+_MODULES['mod_simple'] = '%s/mod_simple.txt' % DATA_DIR
+_MODULES['module1'] = '%s/module1.txt' % DATA_DIR
+_MODULES['module2'] = '%s/module2.txt' % DATA_DIR
+_MODULES['module3'] = '%s/module3.txt' % DATA_DIR
+_MODULES['module4'] = '%s/module4.txt' % DATA_DIR
 
 def read_text_pool(module_name, file_name):
     card_pools = {}

@@ -91,3 +91,6 @@ ENV/
 # PyCharm
 .idea/tasks.xml
 .idea/workspace.xml
+
+# Cube Workstation
+cubeworkstation/output/boosters.html

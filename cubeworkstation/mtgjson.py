@@ -52,7 +52,7 @@ ALL_CARDS = CardDatabase()
 
 
 def build_database():
-    with file('data/AllCards.json') as f:
+    with file('cubeworkstation/data/AllCards.json') as f:
         ALL_CARDS.set_database(json.load(f))
 
 def get_section(card_name):
