@@ -32,6 +32,8 @@ def read_text_pool(module_name, file_name):
         section_name = '%s - Section %s' % (module_name, section_id)
         card_pool = CardPool(section_name, section_cards)
         card_pools[section_name] = card_pool
+        for card in section_cards:
+            card.set_section(section_name)
 
     return card_pools
 

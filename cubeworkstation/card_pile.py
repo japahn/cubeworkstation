@@ -25,6 +25,9 @@ class CardPile(object):
     def shuffle(self):
         self._cards = sample(self._cards, len(self._cards))
 
+    def sort_by_section(self):
+        self._cards.sort(key=lambda c: c.section())
+
     def draw_cards(self, num_cards, name=None):
         drawn_cards = self._cards[:num_cards]
         del self._cards[:num_cards]
