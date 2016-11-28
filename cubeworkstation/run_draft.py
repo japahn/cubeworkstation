@@ -6,5 +6,6 @@ if __name__ == '__main__':
     cube = TheCube()
 
     boosters = cube.good_stuff_draft(8)
+    # boosters = cube.full_random_draft(8)
 
     output_boosters('output/boosters.html', boosters)

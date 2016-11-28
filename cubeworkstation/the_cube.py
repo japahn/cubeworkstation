@@ -38,3 +38,26 @@ class TheCube(object):
             booster.rename('Booster %d' % (i + 1))
 
         return all_boosters
+
+    def full_random_draft(self, num_players):
+        LANDS_SECTION = 'mod_lands - Section 6. Other'
+        SPELL_SECTIONS = [
+            'mod_main - Section 1. W',
+            'mod_main - Section 2. U',
+            'mod_main - Section 3. B',
+            'mod_main - Section 4. R',
+            'mod_main - Section 5. G',
+            'mod_main - Section 6. Other',
+        ]
+
+        big_pile = self.cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)
+        for section_name in SPELL_SECTIONS:
+            pile = self.cube.sections()[section_name].create_pile()
+            big_pile += pile
+        big_pile.shuffle()
+
+        all_boosters = []
+        for _ in xrange(num_players * 3):
+            all_boosters.append(big_pile.draw_cards(15))
+
+        return all_boosters
