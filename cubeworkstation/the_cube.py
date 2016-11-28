@@ -1,9 +1,27 @@
 from card_pile import CardPile
-from cube_data import build_cube
+from cube import Cube
+from cube_data import MODULES
 
 class TheCube(object):
     def __init__(self):
-        self._cube = build_cube()
+        self._cube = self.build_cube()
+
+    @staticmethod
+    def build_cube():
+        cube = Cube()
+        cube_modules = [
+            'mod_lands',
+            'mod_main',
+            'mod_simple'
+        ] + ['module%d' % (i + 1) for i in xrange(4)]
+        for module_name in cube_modules:
+            module = MODULES[module_name]
+            for pool in module.values():
+                cube.add_section(pool)
+        return cube
+
+    def cube(self):
+        return self._cube
 
     def good_stuff_draft(self, num_players):
         all_boosters = []
@@ -62,5 +80,12 @@ class TheCube(object):
 
         return all_boosters
 
-    def cube(self):
-        return self._cube
+if __name__ == '__main__':
+    the_cube = TheCube()
+    sections = the_cube.cube().sections()
+    section_names_sorted = sorted(sections.keys())
+    for section_name in section_names_sorted:
+        section = sections[section_name]
+        print section
+        print
+    print the_cube.cube()
