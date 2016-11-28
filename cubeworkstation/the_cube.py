@@ -3,7 +3,7 @@ from cube_data import build_cube
 
 class TheCube(object):
     def __init__(self):
-        self.cube = build_cube()
+        self._cube = build_cube()
 
     def good_stuff_draft(self, num_players):
         all_boosters = []
@@ -20,7 +20,7 @@ class TheCube(object):
 
         piles = {}
         for section_name, _ in RECIPE_PER_PLAYER.iteritems():
-            pile = self.cube.sections()[section_name].create_pile()
+            pile = self._cube.sections()[section_name].create_pile()
             pile.shuffle()
             piles[section_name] = pile
 
@@ -50,9 +50,9 @@ class TheCube(object):
             'mod_main - Section 6. Other',
         ]
 
-        big_pile = self.cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)
+        big_pile = self._cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)
         for section_name in SPELL_SECTIONS:
-            pile = self.cube.sections()[section_name].create_pile()
+            pile = self._cube.sections()[section_name].create_pile()
             big_pile += pile
         big_pile.shuffle()
 
@@ -61,3 +61,6 @@ class TheCube(object):
             all_boosters.append(big_pile.draw_cards(15))
 
         return all_boosters
+
+    def cube(self):
+        return self._cube

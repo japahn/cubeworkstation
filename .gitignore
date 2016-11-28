@@ -93,4 +93,4 @@ ENV/
 .idea/workspace.xml
 
 # Cube Workstation
-cubeworkstation/output/boosters.html
+output/boosters.html
