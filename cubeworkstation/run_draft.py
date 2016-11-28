@@ -1,4 +1,5 @@
 from collections import defaultdict
+import webbrowser
 
 from booster_output import output_boosters
 from the_cube import TheCube
@@ -36,8 +37,8 @@ class BoosterStats(object):
                 print 'No ocurrences'
             print
 
-RUNS = 100
-OUTPUT_TO_HTML = False
+RUNS = 1
+OUTPUT_TO_HTML = True
 
 if __name__ == '__main__':
     the_cube = TheCube()
@@ -54,5 +55,6 @@ if __name__ == '__main__':
 
     if OUTPUT_TO_HTML:
         output_boosters('output/boosters.html', boosters)
+        webbrowser.open('output/boosters.html')
 
     booster_stats.output()
