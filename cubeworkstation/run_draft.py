@@ -25,16 +25,21 @@ class BoosterStats(object):
         print 'Booster Stats for %d boosters' % self._boosters_seen
         print
         for section_name in self._section_names:
+            num_distributions = len(self._section_distribution[section_name])
+            if num_distributions == 0:
+                continue
+
+            if (num_distributions == 1
+                and (0 in self._section_distribution[section_name].keys())):
+                continue
+
             print 'Section %s:' % section_name
-            if len(self._section_distribution[section_name]) > 0:
-                max_occurrences = max(self._section_distribution[section_name].keys())
-                for num_occurrences in xrange(max_occurrences + 1):
-                    frequency = self._section_distribution[section_name][num_occurrences]
-                    percentage = float(frequency) / self._boosters_seen
-                    print '    %d occurrences: %d (%s)'\
-                          % (num_occurrences, frequency, '{:.2%}'.format(percentage))
-            else:
-                print 'No ocurrences'
+            max_occurrences = max(self._section_distribution[section_name].keys())
+            for num_occurrences in xrange(max_occurrences + 1):
+                frequency = self._section_distribution[section_name][num_occurrences]
+                percentage = float(frequency) / self._boosters_seen
+                print '    %d occurrences: %d (%s)'\
+                      % (num_occurrences, frequency, '{:.2%}'.format(percentage))
             print
 
 RUNS = 1
