@@ -1,43 +1,43 @@
-Mother of Runes
-Emeria Angel
-Wingmate Roc
-Linvala, the Preserver
-Purity
-Day of Judgment
-Wrath of God
-Master of Waves
-Mulldrifter
-Draining Whelk
-Mana Leak
-Fact or Fiction
-Preordain
-Opposition
 Brutal Hordechief
+Carnifex Demon
+Combustible Gearhulk
+Crater Hellion
+Day of Judgment
+Draining Whelk
+Emeria Angel
+Eternal Witness
+Fact or Fiction
+Goblin Dark-Dwellers
+Hangarback Walker
+Hornet Queen
+Lightning Bolt
+Linvala, the Preserver
+Living Death
+Loxodon Hierarch
+Manabarbs
+Mana Leak
+Master of Waves
+Mother of Runes
+Mulldrifter
 Nekrataal
+Oona, Queen of the Fae
+Opposition
+Overwhelming Stampede
+Precursor Golem
+Preordain
+Purity
+Rancor
+Ruric Thar, the Unbowed
+Seize the Soul
 Shriekmaw
 Sidisi, Undead Vizier
-Carnifex Demon
-Seize the Soul
-Living Death
-Taurean Mauler
-Goblin Dark-Dwellers
 Siege-Gang Commander
-Crater Hellion
-Combustible Gearhulk
-Lightning Bolt
-Manabarbs
-Eternal Witness
-Tireless Tracker
 Silvos, Rogue Elemental
-Woodland Bellower
-Hornet Queen
-Overwhelming Stampede
-Rancor
-Oona, Queen of the Fae
-Ruric Thar, the Unbowed
-Loxodon Hierarch
 Simic Sky Swallower
-Hangarback Walker
-Precursor Golem
 Soul of New Phyrexia
 Steel Hellkite
+Taurean Mauler
+Tireless Tracker
+Wingmate Roc
+Woodland Bellower
+Wrath of God

@@ -1,41 +1,41 @@
-Enlightened Tutor
-Soul Snare
-Seal of Cleansing
-Griffin Guide
-Honden of Cleansing Fire
-Sigil of the Empty Throne
-Starfield of Nyx
-Into the Roil
-Mark of Eviction
-Unstable Mutation
-Narcolepsy
+Argothian Enchantress
 Binding Grasp
-Honden of Seeing Winds
 Crystalline Nautilus
 Dead Weight
-Seal of Doom
 Demonic Pact
-Honden of Night's Reach
-Palace Siege
-Gnarled Scarhide
 Doomwake Giant
-Jokulhaups
-Seal of Fire
-Madcap Skills
-Honden of Infinite Rage
-Repercussion
-Outpost Siege
-Everflame Eidolon
-Argothian Enchantress
-Troll Ascetic
-Fade into Antiquity
-Wild Growth
-Moldervine Cloak
-Honden of Life's Web
 Eidolon of Blossoms
-Pillory of the Sleepless
-Pernicious Deed
-Slippery Bogle
+Enlightened Tutor
+Everflame Eidolon
+Fade into Antiquity
 Fevered Visions
-Orim's Thunder
+Gnarled Scarhide
+Griffin Guide
 Helm of the Gods
+Honden of Cleansing Fire
+Honden of Infinite Rage
+Honden of Life's Web
+Honden of Night's Reach
+Honden of Seeing Winds
+Into the Roil
+Jokulhaups
+Madcap Skills
+Mark of Eviction
+Moldervine Cloak
+Narcolepsy
+Orim's Thunder
+Outpost Siege
+Palace Siege
+Pernicious Deed
+Pillory of the Sleepless
+Repercussion
+Seal of Cleansing
+Seal of Doom
+Seal of Fire
+Sigil of the Empty Throne
+Slippery Bogle
+Soul Snare
+Starfield of Nyx
+Troll Ascetic
+Unstable Mutation
+Wild Growth

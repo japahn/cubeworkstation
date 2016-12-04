@@ -1,41 +1,41 @@
-Ajani's Pridemate
 Abzan Falconer
-High Sentinels of Arashin
-Elite Scaleguard
-Sunscorch Regent
-Recumbent Bliss
-Whirler Rogue
-Tezzeret the Seeker
-Sharding Sphinx
-Tezzeret's Gambit
-Ensoul Artifact
-Thopter Spy Network
-Child of Night
-Thrill-Kill Assassin
-Vault Skirge
-Consuming Vapors
-Triskaidekaphobia
-Sanguine Bond
-Stromkirk Noble
-War-Name Aspirant
-Thopter Engineer
-Galvanic Blast
-Shrapnel Blast
-Volt Charge
-Experiment One
+Ajani's Pridemate
 Avatar of the Resolute
-Kavu Predator
-Phantom Tiger
-Forgotten Ancient
-Hardened Scales
-Searing Meditation
-Steel Overseer
-Chief of the Foundry
-Iron League Steed
-Lodestone Golem
-Ghostfire Blade
-Cranial Plating
-Sun Droplet
-Pristine Talisman
-Well of Lost Dreams
 Blinkmoth Nexus
+Chief of the Foundry
+Child of Night
+Consuming Vapors
+Cranial Plating
+Elite Scaleguard
+Ensoul Artifact
+Experiment One
+Forgotten Ancient
+Galvanic Blast
+Ghostfire Blade
+Hardened Scales
+High Sentinels of Arashin
+Iron League Steed
+Kavu Predator
+Lodestone Golem
+Phantom Tiger
+Pristine Talisman
+Recumbent Bliss
+Sanguine Bond
+Searing Meditation
+Sharding Sphinx
+Shrapnel Blast
+Steel Overseer
+Stromkirk Noble
+Sun Droplet
+Sunscorch Regent
+Tezzeret's Gambit
+Tezzeret the Seeker
+Thopter Engineer
+Thopter Spy Network
+Thrill-Kill Assassin
+Triskaidekaphobia
+Vault Skirge
+Volt Charge
+War-Name Aspirant
+Well of Lost Dreams
+Whirler Rogue

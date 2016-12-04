@@ -1,164 +1,164 @@
-Elite Vanguard
-Goldmeadow Harrier
-Loyal Pegasus
-Benalish Cavalry
-Imposing Sovereign
-Mistral Charger
-Serene Steward
-Wall of Essence
-War Priest of Thune
-Youthful Knight
-Attended Knight
-Kemba, Kha Regent
-Mangara of Corondor
-Militant Inquisitor
-Seraph of the Sword
-Serra Angel
-Felidar Sovereign
-Immolating Glare
-Skywhaler's Shot
-Chastise
-Inspired Charge
-Armageddon
-Saltblast
-Planar Cleansing
-Pacifism
-Arrest
-Glorious Anthem
-Righteous Cause
-Flying Men
-Triton Shorestalker
-Azure Mage
-Giant Tortoise
-Omenspeaker
-Vaporkin
+Absorb
 Aether Adept
-Frost Lynx
-Geist of the Archives
-Prodigal Sorcerer
-Scrapskin Drake
-Archivist
-Phantom Monster
-Mnemonic Wall
-Windrider Patrol
+Ageless Entity
+Angel of Despair
 Arcanis the Omnipotent
-Unsummon
-Disdainful Stroke
-Disperse
+Archivist
+Arc Lightning
+Arc Trail
+Armageddon
+Arrest
 Artificer's Epiphany
-Dissolve
-Dismal Failure
-Clash of Wills
-Sleight of Hand
-Rise from the Tides
-Pin to the Earth
-Spectral Flight
-Mind Control
-Typhoid Rats
+Attended Knight
+Azure Mage
+Beetleback Chief
+Benalish Cavalry
 Black Cat
-Fallen Askari
-Ravenous Rats
-Shambling Ghoul
-Skulking Ghost
-Cemetery Reaper
-Deadbridge Shaman
-Fleshbag Marauder
-Nantuko Husk
-Phyrexian Rager
-Royal Assassin
-Bloodbond Vampire
-Gavony Unhallowed
-Howling Banshee
-Gray Merchant of Asphodel
-Swarm of Bloodflies
-Chancellor of the Dross
-Havoc Demon
-Disfigure
-Doom Blade
-Essence Extraction
-Murder
-Innocent Blood
-Hymn to Tourach
-Sign in Blood
 Black Sun's Zenith
-Night of Souls' Betrayal
-Frenzied Goblin
-Spikeshot Elder
+Blazing Specter
+Bloodbond Vampire
 Bloodmark Mentor
 Borderland Marauder
-Fireslinger
-Goblin Shortcutter
-Sigiled Skink
-Goblin Chieftain
-Manic Vandal
-Skirk Shaman
-Zo-Zu the Punisher
-Beetleback Chief
-Fanatic of Mogis
-Thunderbreak Regent
-Fire Servant
-Wild Celebrants
-Rage Thrower
-Shivan Dragon
-Shock
-Titan's Strength
-Fall of the Hammer
-Chandra's Outrage
-Flame Slash
-Arc Trail
-Dragon Fodder
-Arc Lightning
-Stone Rain
-Earthquake
-Elvish Mystic
-Essence Warden
-Gladecover Scout
-Taunting Elf
-Wild Nacatl
-Elvish Visionary
-Garruk's Companion
-Jade Mage
-Kujar Seedsculptor
-Terrain Elemental
-Thornweald Archer
 Carven Caryatid
+Cemetery Reaper
+Chancellor of the Dross
+Chandra's Outrage
+Chastise
 Civic Wayfinder
-Sacred Wolf
-Viridian Shaman
-Nylea's Disciple
-Wild Wanderer
-Ageless Entity
-Pelakka Wurm
+Clash of Wills
+Cloudblazer
+Crystal Ball
+Deadbridge Shaman
+Desert Twister
+Disdainful Stroke
+Disfigure
+Dismal Failure
+Disperse
+Dissolve
+Doom Blade
+Dragon Fodder
+Earthquake
+Elephant Guide
+Elite Vanguard
+Elvish Mystic
+Elvish Visionary
+Essence Extraction
+Essence Warden
+Explore
+Fallen Askari
+Fall of the Hammer
+Fanatic of Mogis
+Felidar Sovereign
+Fire Servant
+Fireslinger
+Flame Slash
+Fleshbag Marauder
+Flying Men
+Frenzied Goblin
+Frost Lynx
+Garruk's Companion
+Gavony Unhallowed
+Geist of the Archives
 Ghoultree
 Giant Growth
-Plummet
-Natural End
-Might of Oaks
-Explore
-Overrun
-Desert Twister
-Elephant Guide
-Cloudblazer
-Absorb
-Silumgar, the Drifting Death
-Recoil
-Blazing Specter
-Terminate
-Kird Ape
-Savage Twister
-Watchwolf
-Novablast Wurm
-Angel of Despair
-Putrid Leech
-Mystic Snake
-Niv-Mizzet, the Firemind
-Lightning Helix
-Steel Wall
-Platinum Angel
-Leonin Scimitar
-Prismatic Lens
-True-Faith Censer
-Crystal Ball
-Vulshok Battlegear
+Giant Tortoise
+Gladecover Scout
+Glorious Anthem
+Goblin Chieftain
+Goblin Shortcutter
+Goldmeadow Harrier
+Gray Merchant of Asphodel
+Havoc Demon
+Howling Banshee
+Hymn to Tourach
 Icy Manipulator
+Immolating Glare
+Imposing Sovereign
+Innocent Blood
+Inspired Charge
+Jade Mage
+Kemba, Kha Regent
+Kird Ape
+Kujar Seedsculptor
+Leonin Scimitar
+Lightning Helix
+Loyal Pegasus
+Mangara of Corondor
+Manic Vandal
+Might of Oaks
+Militant Inquisitor
+Mind Control
+Mistral Charger
+Mnemonic Wall
+Murder
+Mystic Snake
+Nantuko Husk
+Natural End
+Night of Souls' Betrayal
+Niv-Mizzet, the Firemind
+Novablast Wurm
+Nylea's Disciple
+Omenspeaker
+Overrun
+Pacifism
+Pelakka Wurm
 Perilous Vault
+Phantom Monster
+Phyrexian Rager
+Pin to the Earth
+Planar Cleansing
+Platinum Angel
+Plummet
+Prismatic Lens
+Prodigal Sorcerer
+Putrid Leech
+Rage Thrower
+Ravenous Rats
+Recoil
+Righteous Cause
+Rise from the Tides
+Royal Assassin
+Sacred Wolf
+Saltblast
+Savage Twister
+Scrapskin Drake
+Seraph of the Sword
+Serene Steward
+Serra Angel
+Shambling Ghoul
+Shivan Dragon
+Shock
+Sigiled Skink
+Sign in Blood
+Silumgar, the Drifting Death
+Skirk Shaman
+Skulking Ghost
+Skywhaler's Shot
+Sleight of Hand
+Spectral Flight
+Spikeshot Elder
+Steel Wall
+Stone Rain
+Swarm of Bloodflies
+Taunting Elf
+Terminate
+Terrain Elemental
+Thornweald Archer
+Thunderbreak Regent
+Titan's Strength
+Triton Shorestalker
+True-Faith Censer
+Typhoid Rats
+Unsummon
+Vaporkin
+Viridian Shaman
+Vulshok Battlegear
+Wall of Essence
+War Priest of Thune
+Watchwolf
+Wild Celebrants
+Wild Nacatl
+Wild Wanderer
+Windrider Patrol
+Youthful Knight
+Zo-Zu the Punisher

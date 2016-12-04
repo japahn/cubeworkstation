@@ -1,41 +1,41 @@
-Soulcatcher
-Fortify
-Declaration in Stone
-Battle Screech
-Intangible Virtue
-Promise of Bunrei
-Cloudfin Raptor
-Rattlechains
-Welkin Tern
-Coral Barrier
-Echoing Truth
-Gravitational Shift
-Bloodsoaked Champion
-Viscera Seer
-Zulaport Cutthroat
-Minister of Pain
 Abyssal Persecutor
-Priest of the Blood Rite
-Goblin Bushwhacker
-Hellspark Elemental
-Mogg War Marshal
-Zealous Conscripts
-Blasphemous Act
-Goblin Bombardment
-Blisterpod
-Nest Invader
-Hornet Nest
-Kozilek's Predator
-Penumbra Spider
-Birthing Pod
-Murderous Redcap
-Kitchen Finks
-Deathreap Ritual
-Gelectrode
-Spitemare
-Signal Pest
-Epochrasite
-Perilous Myr
-Culling Dais
-Jinxed Idol
 Ashnod's Altar
+Battle Screech
+Birthing Pod
+Blasphemous Act
+Blisterpod
+Bloodsoaked Champion
+Cloudfin Raptor
+Coral Barrier
+Culling Dais
+Deathreap Ritual
+Declaration in Stone
+Echoing Truth
+Epochrasite
+Fortify
+Gelectrode
+Goblin Bombardment
+Goblin Bushwhacker
+Gravitational Shift
+Hellspark Elemental
+Hornet Nest
+Intangible Virtue
+Jinxed Idol
+Kitchen Finks
+Kozilek's Predator
+Minister of Pain
+Mogg War Marshal
+Murderous Redcap
+Nest Invader
+Penumbra Spider
+Perilous Myr
+Priest of the Blood Rite
+Promise of Bunrei
+Rattlechains
+Signal Pest
+Soulcatcher
+Spitemare
+Viscera Seer
+Welkin Tern
+Zealous Conscripts
+Zulaport Cutthroat

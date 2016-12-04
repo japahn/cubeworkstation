@@ -1,41 +1,41 @@
-Patrol Hound
-Glory
-Karmic Guide
-Eternal Dragon
 Akroma, Angel of Wrath
-Miraculous Recovery
-Breath of Life
-Enclave Cryptologist
-Jace, Vryn's Prodigy
-Wharf Infiltrator
-Wonder
-Circular Logic
-Frantic Search
-Welcome to the Fold
+Arrogant Wurm
 Asylum Visitor
-Heir of Falkenrath
-Nightshade Assassin
-Collective Brutality
-Exhume
-Ichor Slick
-Necromancy
-Jaya Ballard, Task Mage
-Squee, Goblin Nabob
-Incorrigible Youths
-Reckless Wurm
-Fiery Temper
-Violent Eruption
-Faithless Looting
 Basking Rootwalla
+Breath of Life
+Circular Logic
+Collective Brutality
+Enclave Cryptologist
+Eternal Dragon
+Exhume
+Faithless Looting
+Fiery Temper
+Frantic Search
+Geier Reach Sanitarium
+Glory
+Heir of Falkenrath
+Ichor Slick
+Incorrigible Youths
+Jace, Vryn's Prodigy
+Jaya Ballard, Task Mage
+Karmic Guide
+Key to the City
+Miraculous Recovery
+Necromancy
+Nightshade Assassin
 Nimble Mongoose
 Noose Constrictor
-Werebear
-Wild Mongrel
-Arrogant Wurm
-Roar of the Wurm
+Patrol Hound
 Psychatog
-Torrent of Souls
+Reckless Wurm
+Roar of the Wurm
+Squee, Goblin Nabob
 Stormbind
+Torrent of Souls
 Unburial Rites
-Key to the City
-Geier Reach Sanitarium
+Violent Eruption
+Welcome to the Fold
+Werebear
+Wharf Infiltrator
+Wild Mongrel
+Wonder

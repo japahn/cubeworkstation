@@ -1,72 +1,72 @@
-Celestial Colonnade
-Flooded Strand
-Glacial Fortress
-Hallowed Fountain
-Prairie Stream
-Creeping Tar Pit
-Drowned Catacomb
-Polluted Delta
-Sunken Hollow
-Watery Grave
+Arcane Sanctum
+Battlefield Forge
 Blood Crypt
 Bloodstained Mire
-Dragonskull Summit
-Lavaclaw Reaches
-Smoldering Marsh
-Cinder Glade
-Raging Ravine
-Rootbound Crag
-Stomping Ground
-Wooded Foothills
-Canopy Vista
-Stirring Wildwood
-Sunpetal Grove
-Temple Garden
-Windswept Heath
-Caves of Koilos
-Godless Shrine
-Isolated Chapel
-Shambling Vent
-Temple of Silence
-Hissing Quagmire
-Llanowar Wastes
-Overgrown Tomb
-Temple of Malady
-Woodland Cemetery
 Breeding Pool
-Hinterland Harbor
-Lumbering Falls
-Temple of Mystery
-Yavimaya Coast
-Shivan Reef
-Steam Vents
-Sulfur Falls
-Temple of Epiphany
-Wandering Fumarole
-Battlefield Forge
-Clifftop Retreat
-Needle Spires
-Sacred Foundry
-Temple of Triumph
-Savage Lands
-Jungle Shrine
-Seaside Citadel
-Arcane Sanctum
-Crumbling Necropolis
-Mystic Monastery
-Nomad Outpost
-Sandsteppe Citadel
-Opulent Palace
-Frontier Bivouac
+Canopy Vista
+Caves of Koilos
+Celestial Colonnade
+Cinder Glade
 City of Brass
+Clifftop Retreat
+Creeping Tar Pit
+Crumbling Necropolis
 Desert
+Dragonskull Summit
+Drowned Catacomb
 Evolving Wilds
 Faerie Conclave
+Flooded Strand
+Frontier Bivouac
 Gemstone Mine
 Ghitu Encampment
+Glacial Fortress
+Godless Shrine
+Hallowed Fountain
+Hinterland Harbor
+Hissing Quagmire
+Isolated Chapel
+Jungle Shrine
+Lavaclaw Reaches
+Llanowar Wastes
+Lumbering Falls
 Mishra's Factory
+Mystic Monastery
+Needle Spires
 Nephalia Drownyard
+Nomad Outpost
+Opulent Palace
+Overgrown Tomb
+Polluted Delta
+Prairie Stream
+Raging Ravine
+Rootbound Crag
+Sacred Foundry
+Sandsteppe Citadel
+Savage Lands
+Seaside Citadel
+Shambling Vent
+Shivan Reef
+Smoldering Marsh
+Steam Vents
+Stirring Wildwood
+Stomping Ground
+Sulfur Falls
+Sunken Hollow
+Sunpetal Grove
+Temple Garden
+Temple of Epiphany
+Temple of Malady
+Temple of Mystery
+Temple of Silence
+Temple of Triumph
 Terramorphic Expanse
 Treetop Village
+Wandering Fumarole
 Wasteland
+Watery Grave
 Westvale Abbey
+Windswept Heath
+Wooded Foothills
+Woodland Cemetery
+Yavimaya Coast

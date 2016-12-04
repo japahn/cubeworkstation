@@ -1,410 +1,410 @@
-Ghost-Lit Redeemer
-Isamaru, Hound of Konda
-Mardu Woe-Reaper
-Mother of Runes
-Savannah Lions
-Soul Warden
-Thraben Inspector
+Abbot of Keral Keep
+Abrupt Decay
 Accorder Paladin
-Anafenza, Kin-Tree Spirit
-Hanweir Militia Captain
-Lone Missionary
-Phantom Nomad
-Soltari Trooper
-Soulfire Grand Master
-Stormfront Pegasus
-Thalia, Guardian of Thraben
-Topan Freeblade
-Bygone Bishop
-Flickerwisp
-Frontline Medic
-Mentor of the Meek
-Silverblade Paladin
-Soltari Champion
-Soltari Crusader
-Calciderm
-Emeria Angel
-Hundred-Handed One
-Magus of the Tabernacle
-Thalia's Lancers
-Wingmate Roc
-Linvala, the Preserver
-Purity
-Sentinel of the Eternal Watch
-Angel of Serenity
-Porcelain Legionnaire
-Condemn
-Gods Willing
-Harm's Way
-Mana Tithe
-Righteousness
-Swords to Plowshares
-Apostle's Blessing
-Disenchant
-Reprisal
-Test of Faith
-Valorous Stance
+Acidic Soil
 Acrobatic Maneuver
-Devouring Light
-Eerie Interlude
-Tenacity
-Second Thoughts
-Unexpectedly Absent
-Sunlance
-Balance
-Solemn Offering
-Day of Judgment
-Wrath of God
-End Hostilities
-Fumigate
 Akroma's Vengeance
-Feudkiller's Verdict
-Hour of Reckoning
-Providence
-Decree of Justice
-Journey to Nowhere
-Oblivion Ring
-Faith's Fetters
-Spear of Heliod
-Spirit of the Labyrinth
-Eidolon of Countless Battles
-Drifter il-Dal
-Jace's Phantasm
-Augur of Bolas
-Looter il-Kor
-Mindshrieker
-Stormscape Familiar
-Thing in the Ice
-Chasm Skulker
-Eldrazi Skyspawner
-Jeskai Infiltrator
-Man-o'-War
-Sea Gate Oracle
-Spiketail Drakeling
-Stormbound Geist
-Thalakos Scout
-Wake Thrasher
-Conundrum Sphinx
-Master of Waves
-Ninja of the Deep Hours
-Reef Worm
-Djinn of Wishes
-Mulldrifter
-Draining Whelk
-Geralf's Mindcrusher
-Jace's Mindseeker
-Phyrexian Ingester
-Spined Thopter
-Inkwell Leviathan
-Force Spike
-Vapor Snag
+Alesha, Who Smiles at Death
+Anafenza, Kin-Tree Spirit
+Angel of Serenity
+Animate Dead
+Ankh of Mishra
+Apostle's Blessing
+Arashi, the Sky Asunder
+Arborback Stomper
 Arcane Denial
-Counterspell
-Mana Leak
-Meddle
-Memory Lapse
-Miscalculation
-Negate
-Remand
-Think Twice
-Withdraw
-Complicate
-Exclude
-Psionic Blast
-Scatter to the Winds
-Thirst for Knowledge
-Cryptic Command
-Fact or Fiction
-Insidious Will
 Archive Trap
-Gush
-Condescend
-Repeal
-Gitaxian Probe
-Careful Study
-Clutch of Currents
-Ponder
-Preordain
-Silent Departure
-Compulsive Research
-Deep Analysis
-Sleep
-Legacy's Allure
-Pendrell Flux
-Standstill
-Sphinx's Tutelage
-Opposition
-Corrupted Conscience
-Confiscate
+Ashmouth Hound
+Atarka's Command
+Augur of Bolas
+Avaricious Dragon
+Azorius Guildmage
+Balance
+Become Immense
+Bedlam Reveler
 Bident of Thassa
-Thassa, God of the Sea
-Carnophage
-Diregraf Ghoul
-Tormented Hero
-Vampire Lacerator
+Birds of Paradise
+Blackmail
+Blastoderm
+Blightning
 Blood Artist
 Blood-Chin Rager
+Blood Knight
+Blossoming Defense
+Boggart Ram-Gang
+Bonehoard
+Bonesplitter
+Boon Satyr
+Boros Charm
+Briarhorn
+Brittle Effigy
+Browbeat
+Brutal Hordechief
+Brute Force
+Bygone Bishop
+Calciderm
+Call of the Herd
+Careful Study
+Carnifex Demon
+Carnophage
+Chainer's Edict
+Chain Lightning
+Chain of Smog
+Chandra's Phoenix
+Char
+Chasm Skulker
+Chord of Calling
+Chromatic Lantern
+Clutch of Currents
+Coalition Relic
+Collected Company
+Combustible Gearhulk
+Complicate
+Compulsive Research
+Condemn
+Condescend
+Confiscate
+Consulate Skygate
+Conundrum Sphinx
+Corrupted Conscience
+Counterspell
+Crater Hellion
+Crux of Fate
+Cryptic Command
+Dack Fayden
+Dark Petition
 Dauthi Horror
+Dauthi Marauder
+Day of Judgment
+Dead // Gone
+Deathrite Shaman
+Decree of Justice
+Deep Analysis
+Demonic Tutor
+Deranged Whelp
+Descent of the Dragons
+Devouring Light
+Diregraf Ghoul
+Disembowel
+Disenchant
+Disintegrate
+Dismember
+Distress
+Djinn of Wishes
+Draining Whelk
+Drana, Liberator of Malakir
+Drifter il-Dal
+Drown in Sorrow
+Dryad Militant
+Dualcaster Mage
+Duress
+Dusk Urchins
+Edge of Autumn
+Eerie Interlude
+Eidolon of Countless Battles
+Eldrazi Skyspawner
+Emeria Angel
+End Hostilities
+Enslave
+Entomb
+Eternal Witness
+Exclude
+Explosive Vegetation
+Fact or Fiction
+Faith's Fetters
+Far // Away
+Farseek
+Fauna Shaman
+Feudkiller's Verdict
+Firebolt
+Firedrinker Satyr
+Fire Imp
+Firemane Angel
+Flamerush Rider
+Fleetwheel Cruiser
+Flickerwisp
+Force Spike
+Frontline Medic
+Fumigate
+Gaea's Revenge
+Geistblast
+Genju of the Spires
+Geralf's Mindcrusher
+Ghost-Lit Redeemer
+Gild
+Gilt-Leaf Winnower
+Gitaxian Probe
+Goblin Dark-Dwellers
+Goblin Heelcutter
+Goblin Sharpshooter
+Gods Willing
+Goldnight Castigator
+Gore-House Chainwalker
+Green Sun's Zenith
+Grim Lavamancer
+Gush
+Hammer of Bogardan
+Hangarback Walker
+Hanweir Militia Captain
+Harmonize
+Harm's Way
+Harrow
+Herald of Torment
+Hornet Queen
+Hour of Reckoning
+Hundred-Handed One
+Hurricane
+Hypnotic Specter
+Ingot Chewer
+Inkwell Leviathan
+Inquisition of Kozilek
+Insidious Will
+Inverter of Truth
+Isamaru, Hound of Konda
+Jace's Mindseeker
+Jace's Phantasm
+Jeskai Infiltrator
+Jori En, Ruin Diver
+Journey to Nowhere
+Judge's Familiar
+Jungle Lion
+Kavu Titan
+Keldon Marauders
+Kessig Forgemaster
+Kessig Prowler
 Kiku, Night's Flower
+Kodama's Reach
+Krosan Grip
+Lambholt Pacifist
+Languish
+Last Gasp
+Legacy's Allure
+Lightning Berserker
+Lightning Bolt
+Lightning Greaves
+Lightning Strike
+Lightning Surge
+Linvala, the Preserver
+Living Death
+Llanowar Elves
+Lone Missionary
+Looter il-Kor
+Lost Hours
+Loxodon Hierarch
+Loxodon Warhammer
+Magus of the Scroll
+Magus of the Tabernacle
+Magus of the Wheel
+Manabarbs
+Mana Leak
+Mana Tithe
+Man-o'-War
+Mardu Woe-Reaper
+Master of Waves
+Meddle
+Memory Lapse
+Mentor of the Meek
+Mindshrieker
+Mind Stone
+Mire Boa
+Miscalculation
+Mogis's Warhound
+Moment's Peace
+Morkrut Banshee
+Mortify
+Mother of Runes
+Mox Diamond
+Mulldrifter
+Naturalize
+Nature's Way
+Nefarox, Overlord of Grixis
+Negate
+Nekrataal
+Nevinyrral's Disk
 Nezumi Cutthroat
 Nezumi Graverobber
 Nightscape Familiar
-Oona's Prowler
-Pain Seer
-Reassembling Skeleton
-Wall of Souls
-Dauthi Marauder
-Drana, Liberator of Malakir
-Dusk Urchins
-Hypnotic Specter
-Nyxathid
-Tooth Collector
-Vampire Nighthawk
-Brutal Hordechief
-Inverter of Truth
-Nekrataal
-Sengir Autocrat
-Gilt-Leaf Winnower
-Morkrut Banshee
-Shriekmaw
-Sidisi, Undead Vizier
-Throat Slitter
-Carnifex Demon
-Nefarox, Overlord of Grixis
-Phyrexian Gargantua
-Visara the Dreadful
-Dismember
-Entomb
-Tragic Slip
-Undying Evil
-Last Gasp
-Smother
-Rend Flesh
-Seize the Soul
-Disembowel
-Blackmail
-Duress
-Inquisition of Kozilek
-Raven's Crime
-Reanimate
-Unearth
-Chain of Smog
-Chainer's Edict
-Demonic Tutor
-Distress
-Lost Hours
 Night's Whisper
-Drown in Sorrow
-Painful Truths
-Stupor
-Gild
-Languish
-Crux of Fate
-Dark Petition
-Living Death
-Profane Command
-Animate Dead
-Phyrexian Arena
-Stab Wound
-Enslave
-Herald of Torment
-Firedrinker Satyr
-Grim Lavamancer
-Lightning Berserker
-Magus of the Scroll
-Zurgo Bellstriker
-Abbot of Keral Keep
-Ashmouth Hound
-Blood Knight
-Deranged Whelp
-Gore-House Chainwalker
-Keldon Marauders
-Kessig Forgemaster
-Thermo-Alchemist
-Young Pyromancer
-Zada's Commando
-Alesha, Who Smiles at Death
-Chandra's Phoenix
-Dualcaster Mage
-Fire Imp
-Goblin Sharpshooter
-Magus of the Wheel
-Prophetic Flamespeaker
-Sin Prodder
-Taurean Mauler
-Tuktuk the Explorer
-Avaricious Dragon
-Goblin Heelcutter
-Goldnight Castigator
+Ninja of the Deep Hours
+Nyxathid
+Oblivion Ring
+Oblivion Stone
 Ogre Battledriver
-Flamerush Rider
-Goblin Dark-Dwellers
-Ingot Chewer
-Shard Phoenix
-Siege-Gang Commander
-Thunderblust
-Crater Hellion
-Rorix Bladewing
-Bedlam Reveler
-Combustible Gearhulk
-Brute Force
-Dead // Gone
-Lightning Bolt
-Lightning Strike
-Searing Blaze
-Searing Blood
-Smash to Smithereens
-Temur Battle Rage
-Char
-Stoke the Flames
-Chain Lightning
-Firebolt
-Pyroclasm
-Roast
-Whipflare
-Acidic Soil
-Browbeat
-Hammer of Bogardan
-Radiant Flames
-Rift Bolt
-Lightning Surge
-Descent of the Dragons
-Disintegrate
-Slice and Dice
-Genju of the Spires
-Pyromancer's Swath
-Sulfuric Vortex
-Manabarbs
-Sneak Attack
-Mogis's Warhound
-Satyr Firedancer
-Birds of Paradise
-Jungle Lion
-Kessig Prowler
-Llanowar Elves
-Scute Mob
-Sylvan Safekeeper
-Twinblade Slasher
-Warden of the First Tree
-Fauna Shaman
-Kavu Titan
-Lambholt Pacifist
-Mire Boa
-River Boa
-Sakura-Tribe Elder
-Silhana Ledgewalker
-Skinshifter
-Strangleroot Geist
-Thornscape Familiar
-Vinelasher Kudzu
-Eternal Witness
 Ohran Viper
 Omnath, Locus of Mana
-Reclamation Sage
-Scourge of Skola Vale
-Tireless Tracker
-Yasova Dragonclaw
-Blastoderm
-Briarhorn
-Surrak, the Hunt Caller
-Tree of Redemption
-Wickerbough Elder
-Woodland Wanderer
-Arashi, the Sky Asunder
-Arborback Stomper
-Weatherseed Treefolk
-Silvos, Rogue Elemental
-Woodland Bellower
-Gaea's Revenge
-Hornet Queen
-Penumbra Wurm
-Blossoming Defense
-Vines of Vastwood
-Moment's Peace
-Naturalize
-Sprout Swarm
-Sylvan Might
-Harrow
-Krosan Grip
-Collected Company
-Become Immense
-Chord of Calling
-Edge of Autumn
-Farseek
-Nature's Way
-Rabid Bite
-Rampant Growth
-Regrowth
-Call of the Herd
-Kodama's Reach
-Explosive Vegetation
-Harmonize
-Overwhelming Stampede
-Green Sun's Zenith
-Hurricane
-Seasons Past
-Tromp the Domains
-Rancor
-Sylvan Library
-Squirrel Nest
-Boon Satyr
-Judge's Familiar
-Azorius Guildmage
-Swans of Bryn Argoll
-Shadowmage Infiltrator
 Oona, Queen of the Fae
-Far // Away
-Rakdos Cackler
-Swift Warkite
-Blightning
-Boggart Ram-Gang
-Ruric Thar, the Unbowed
-Atarka's Command
-Dryad Militant
-Loxodon Hierarch
+Oona's Prowler
+Opposition
+Overwhelming Stampede
+Painful Truths
+Pain Seer
+Pendrell Flux
+Penumbra Wurm
 Phantom Nishoba
-Zealous Persecution
-Mortify
-Vindicate
-Deathrite Shaman
-Abrupt Decay
-Putrefy
-Simic Sky Swallower
-Shardless Agent
-Simic Charm
-Jori En, Ruin Diver
-Dack Fayden
-Geistblast
-Firemane Angel
-Boros Charm
-Rally the Peasants
-Consulate Skygate
-Hangarback Walker
+Phantom Nomad
+Phyrexian Arena
+Phyrexian Gargantua
+Phyrexian Ingester
 Phyrexian Revoker
-Scrapheap Scrounger
-Solemn Simulacrum
+Ponder
+Porcelain Legionnaire
 Precursor Golem
-Soul of New Phyrexia
-Steel Hellkite
-Mox Diamond
-Bonesplitter
-Brittle Effigy
-Sylvok Lifestaff
-Wayfarer's Bauble
-Ankh of Mishra
-Lightning Greaves
-Mind Stone
+Preordain
+Profane Command
+Prophetic Flamespeaker
+Providence
+Psionic Blast
+Purity
+Putrefy
+Pyroclasm
+Pyromancer's Swath
+Rabid Bite
+Radiant Flames
+Rakdos Cackler
+Rally the Peasants
+Rampant Growth
+Rancor
 Ratchet Bomb
-Shrine of Burning Rage
-Sphere of the Suns
-Sword of the Animist
-Vulshok Morningstar
-Chromatic Lantern
-Coalition Relic
-Loxodon Warhammer
-Oblivion Stone
+Raven's Crime
+Reanimate
+Reassembling Skeleton
+Reclamation Sage
+Reef Worm
+Regrowth
+Remand
+Rend Flesh
+Repeal
+Reprisal
+Rift Bolt
+Righteousness
+River Boa
+Roast
+Rorix Bladewing
+Ruric Thar, the Unbowed
+Sakura-Tribe Elder
 Sands of Delirium
-Bonehoard
-Fleetwheel Cruiser
-Nevinyrral's Disk
+Satyr Firedancer
+Savannah Lions
+Scatter to the Winds
+Scourge of Skola Vale
+Scrapheap Scrounger
+Scute Mob
+Sea Gate Oracle
+Searing Blaze
+Searing Blood
+Seasons Past
+Second Thoughts
+Seize the Soul
+Sengir Autocrat
+Sentinel of the Eternal Watch
 Serrated Arrows
+Shadowmage Infiltrator
+Shardless Agent
+Shard Phoenix
+Shriekmaw
+Shrine of Burning Rage
+Sidisi, Undead Vizier
+Siege-Gang Commander
+Silent Departure
+Silhana Ledgewalker
+Silverblade Paladin
+Silvos, Rogue Elemental
+Simic Charm
+Simic Sky Swallower
+Sin Prodder
+Skinshifter
+Sleep
+Slice and Dice
+Smash to Smithereens
+Smother
+Sneak Attack
+Solemn Offering
+Solemn Simulacrum
+Soltari Champion
+Soltari Crusader
+Soltari Trooper
+Soulfire Grand Master
+Soul of New Phyrexia
+Soul Warden
+Spear of Heliod
+Sphere of the Suns
+Sphinx's Tutelage
+Spiketail Drakeling
+Spined Thopter
+Spirit of the Labyrinth
+Sprout Swarm
+Squirrel Nest
+Stab Wound
+Standstill
+Steel Hellkite
+Stoke the Flames
+Stormbound Geist
+Stormfront Pegasus
+Stormscape Familiar
+Strangleroot Geist
+Stupor
+Sulfuric Vortex
+Sunlance
+Surrak, the Hunt Caller
+Swans of Bryn Argoll
+Swift Warkite
+Sword of the Animist
+Swords to Plowshares
+Sylvan Library
+Sylvan Might
+Sylvan Safekeeper
+Sylvok Lifestaff
+Taurean Mauler
+Temur Battle Rage
+Tenacity
+Test of Faith
+Thalakos Scout
+Thalia, Guardian of Thraben
+Thalia's Lancers
+Thassa, God of the Sea
+Thermo-Alchemist
+Thing in the Ice
+Think Twice
+Thirst for Knowledge
+Thornscape Familiar
+Thraben Inspector
+Throat Slitter
+Thunderblust
+Tireless Tracker
+Tooth Collector
+Topan Freeblade
+Tormented Hero
+Tragic Slip
+Tree of Redemption
+Tromp the Domains
+Tuktuk the Explorer
+Twinblade Slasher
+Undying Evil
+Unearth
+Unexpectedly Absent
+Valorous Stance
+Vampire Lacerator
+Vampire Nighthawk
+Vapor Snag
+Vindicate
+Vinelasher Kudzu
+Vines of Vastwood
+Visara the Dreadful
+Vulshok Morningstar
+Wake Thrasher
+Wall of Souls
+Warden of the First Tree
+Wayfarer's Bauble
+Weatherseed Treefolk
+Whipflare
+Wickerbough Elder
+Wingmate Roc
+Withdraw
+Woodland Bellower
+Woodland Wanderer
+Wrath of God
+Yasova Dragonclaw
+Young Pyromancer
+Zada's Commando
+Zealous Persecution
+Zurgo Bellstriker
