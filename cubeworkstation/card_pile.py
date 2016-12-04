@@ -29,9 +29,17 @@ class CardPile(object):
         self._cards.sort(key=lambda c: min(c.sections()))
 
     def draw_cards(self, num_cards, name=None):
+        assert (self.size() >= num_cards), ('Trying to draw %d cards from pile %s with %d cards' %
+            (num_cards, self.name(), self.size()))
         drawn_cards = self._cards[:num_cards]
         del self._cards[:num_cards]
         return CardPile(name if name else 'Drawn', drawn_cards)
+
+    def draw_card(self):
+        return self._cards.pop(0)
+
+    def add_top(self, card):
+        self._cards.insert(0, card)
 
     def __add__(self, other):
         name = '(%s + %s)' % (self.name(), other.name())
@@ -39,7 +47,8 @@ class CardPile(object):
         return CardPile(name, cards)
 
     def __div__(self, denominator):
-        assert self.size() % denominator == 0
+        assert (self.size() % denominator == 0), ('Cannot divide CardPile of size %d by %d' %
+            (self.size(), denominator))
         cards_per_pile = self.size() / denominator
 
         all_piles = []

@@ -1,6 +1,9 @@
 from card_pile import CardPile
 from cube import Cube
 from cube_data import MODULES
+from cube_module import CubeModule
+from mtgjson import (SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G, SECTION_OTHER)
+
 
 class TheRareCube(object):
     def __init__(self):
@@ -9,20 +12,14 @@ class TheRareCube(object):
     @staticmethod
     def build_cube():
         cube = Cube()
-        cube_modules = [
-            'mod_lands',
-            'mod_main',
-            'rares_in_main',
-        ]
 
-        module = MODULES['mod_lands']
-        for pool in module.values():
-            cube.add_section(pool)
-        module = MODULES['mod_main']
-        for pool in module.values():
-            cube.add_section(pool)
-        pool
-        cube.add_section(sum(MODULES['rares_in_main'].values()))
+        mod_main_without_rares = CubeModule.subtract('mod_main_without_rares',
+                                                     MODULES['mod_main'],
+                                                     MODULES['rares_in_main'])
+
+        cube.add_module(mod_main_without_rares)
+        cube.add_module(MODULES['mod_lands'])
+        cube.add_module(MODULES['rares_in_main'])
         return cube
 
     def cube(self):
@@ -32,13 +29,13 @@ class TheRareCube(object):
         all_boosters = []
 
         RECIPE_PER_PLAYER = {
-            'mod_main - Section 1. W': 7,
-            'mod_main - Section 2. U': 7,
-            'mod_main - Section 3. B': 7,
-            'mod_main - Section 4. R': 7,
-            'mod_main - Section 5. G': 7,
-            'mod_main - Section 6. Other': 6,
-            'mod_lands - Section 6. Other': 4,
+            ('mod_main_without_rares', SECTION_W): 6,
+            ('mod_main_without_rares', SECTION_U): 6,
+            ('mod_main_without_rares', SECTION_B): 6,
+            ('mod_main_without_rares', SECTION_R): 6,
+            ('mod_main_without_rares', SECTION_G): 6,
+            ('mod_main_without_rares', SECTION_OTHER): 6,
+            ('mod_lands', SECTION_OTHER): 6,
         }
 
         piles = {}
@@ -59,29 +56,13 @@ class TheRareCube(object):
 
         for i, booster in enumerate(all_boosters):
             booster.rename('Booster %d' % (i + 1))
+            booster.sort_by_section()
 
-        return all_boosters
-
-    def full_random_draft(self, num_players):
-        LANDS_SECTION = 'mod_lands - Section 6. Other'
-        SPELL_SECTIONS = [
-            'mod_main - Section 1. W',
-            'mod_main - Section 2. U',
-            'mod_main - Section 3. B',
-            'mod_main - Section 4. R',
-            'mod_main - Section 5. G',
-            'mod_main - Section 6. Other',
-        ]
-
-        big_pile = self._cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)
-        for section_name in SPELL_SECTIONS:
-            pile = self._cube.sections()[section_name].create_pile()
-            big_pile += pile
-        big_pile.shuffle()
-
-        all_boosters = []
-        for _ in xrange(num_players * 3):
-            all_boosters.append(big_pile.draw_cards(15))
+        rare_pile = self._cube.modules()['rares_in_main'].pool().create_pile()
+        rare_pile.shuffle()
+        for booster in all_boosters:
+            rare = rare_pile.draw_card()
+            booster.add_top(rare)
 
         return all_boosters
 

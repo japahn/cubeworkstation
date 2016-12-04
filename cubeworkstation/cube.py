@@ -1,12 +1,21 @@
 class Cube(object):
     def __init__(self):
+        self._modules = {}
         self._sections = {}
         self._card_count = 0
+
+    def modules(self):
+        return self._modules
 
     def sections(self):
         return self._sections
 
-    def add_section(self, pool):
+    def add_module(self, module):
+        self._modules[module.name()] = module
+        for section in module.all_sections():
+            self._add_section(section)
+
+    def _add_section(self, pool):
         self._sections[pool.name()] = pool
         self._card_count += pool.size()
 

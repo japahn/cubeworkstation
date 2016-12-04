@@ -16,9 +16,7 @@ class TheCube(object):
             'mod_simple'
         ] + ['module%d' % (i + 1) for i in xrange(4)]
         for module_name in cube_modules:
-            module = MODULES[module_name]
-            for pool in module.all_sections():
-                cube.add_section(pool)
+            cube.add_module(MODULES[module_name])
         return cube
 
     def cube(self):
@@ -55,6 +53,7 @@ class TheCube(object):
 
         for i, booster in enumerate(all_boosters):
             booster.rename('Booster %d' % (i + 1))
+            booster.sort_by_section()
 
         return all_boosters
 
@@ -77,7 +76,9 @@ class TheCube(object):
 
         all_boosters = []
         for _ in xrange(num_players * 3):
-            all_boosters.append(big_pile.draw_cards(15))
+            booster = big_pile.draw_cards(15)
+            booster.sort_by_section()
+            all_boosters.append(booster)
 
         return all_boosters
 
