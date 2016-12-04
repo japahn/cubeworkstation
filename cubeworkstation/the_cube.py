@@ -104,17 +104,15 @@ class TheCube(object):
         for color in ALL_SECTIONS:
             for module in ['mod_main', 'mod_simple']:
                 section_id = (module, color)
-                pile = self._cube.sections()[section_id].create_shuffled_pile()
-                piles[section_id] = pile
+                piles[section_id] = self._cube.sections()[section_id].create_shuffled_pile()
 
         for module in ['mod_lands_simple', 'mod_lands_without_simple']:
             section_id = (module, SECTION_OTHER)
-            pile = self._cube.sections()[section_id].create_shuffled_pile()
-            piles[section_id] = pile
+            piles[section_id] = self._cube.sections()[section_id].create_shuffled_pile()
 
         for color in ALL_SECTIONS:
             piles[color] = self._build_color_pile(piles, color, num_players, simplicity, SPELLS_PER_PLAYER[color],
-                                                    'mod_main', 'mod_simple')
+                                                  'mod_main', 'mod_simple')
         piles['lands'] = self._build_color_pile(piles, SECTION_OTHER, num_players, simplicity, LANDS_PER_PLAYER,
                                                 'mod_lands_without_simple', 'mod_lands_simple')
 
