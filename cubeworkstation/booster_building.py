@@ -4,8 +4,7 @@ from card_pile import CardPile
 def build_boosters_from_recipe_by_player(cube, recipe, num_players):
     piles = {}
     for section_name, _ in recipe.iteritems():
-        pile = cube.sections()[section_name].create_pile()
-        pile.shuffle()
+        pile = cube.sections()[section_name].create_shuffled_pile()
         piles[section_name] = pile
 
     all_boosters = []

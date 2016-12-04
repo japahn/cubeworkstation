@@ -16,8 +16,10 @@ class CardPool(object):
     def size(self):
         return len(self._cards)
 
-    def create_pile(self):
-        return CardPile(self._pool_name, self._cards)
+    def create_shuffled_pile(self):
+        pile = CardPile(self._pool_name, self._cards)
+        pile.shuffle()
+        return pile
 
     def __str__(self):
         if self._string_repr is None:

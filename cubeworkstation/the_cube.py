@@ -63,8 +63,7 @@ class TheCube(object):
 
         all_boosters = build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
 
-        rare_pile = self._cube.modules()['rare'].pool().create_pile()
-        rare_pile.shuffle()
+        rare_pile = self._cube.modules()['rare'].pool().create_shuffled_pile()
         for booster in all_boosters:
             rare = rare_pile.draw_card()
             booster.add_top(rare)
@@ -105,29 +104,19 @@ class TheCube(object):
         for color in ALL_SECTIONS:
             for module in ['mod_main', 'mod_simple']:
                 section_id = (module, color)
-                pile = self._cube.sections()[section_id].create_pile()
-                pile.shuffle()
+                pile = self._cube.sections()[section_id].create_shuffled_pile()
                 piles[section_id] = pile
 
         for module in ['mod_lands_simple', 'mod_lands_without_simple']:
             section_id = (module, SECTION_OTHER)
-            pile = self._cube.sections()[section_id].create_pile()
-            pile.shuffle()
+            pile = self._cube.sections()[section_id].create_shuffled_pile()
             piles[section_id] = pile
 
         for color in ALL_SECTIONS:
-            cards_total, cards_from_simple, cards_from_main = self._card_mixed_distribution(
-                num_players, SPELLS_PER_PLAYER[color], simplicity)
-
-            piles[color] = (piles[('mod_main', color)].draw_cards(cards_from_main)
-                            + piles[('mod_simple', color)].draw_cards(cards_from_simple))
-            piles[color].shuffle()
-
-        cards_total, cards_from_simple, cards_from_main = self._card_mixed_distribution(
-            num_players, LANDS_PER_PLAYER, simplicity)
-        piles['lands'] = (piles[('mod_lands_without_simple', color)].draw_cards(cards_from_main)
-                          + piles[('mod_lands_simple', color)].draw_cards(cards_from_simple))
-        piles['lands'].shuffle()
+            piles[color] = self._build_color_pile(piles, color, num_players, simplicity, SPELLS_PER_PLAYER[color],
+                                                    'mod_main', 'mod_simple')
+        piles['lands'] = self._build_color_pile(piles, SECTION_OTHER, num_players, simplicity, LANDS_PER_PLAYER,
+                                                'mod_lands_without_simple', 'mod_lands_simple')
 
         all_boosters = []
         for _ in xrange(num_players):
@@ -143,6 +132,14 @@ class TheCube(object):
             booster.sort_by_section()
 
         return all_boosters
+
+    def _build_color_pile(self, piles, color, num_players, simplicity, cards_per_player, main_module, simple_module):
+        cards_total, cards_from_simple, cards_from_main = self._card_mixed_distribution(
+            num_players, cards_per_player, simplicity)
+        color_pile = (piles[(main_module, color)].draw_cards(cards_from_main)
+                          + piles[(simple_module, color)].draw_cards(cards_from_simple))
+        color_pile.shuffle()
+        return color_pile
 
     def _card_mixed_distribution(self, num_players, cards_per_player, simplicity):
         cards_total = cards_per_player * num_players
@@ -161,10 +158,9 @@ class TheCube(object):
             ('mod_main', SECTION_OTHER),
         ]
 
-        big_pile = self._cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)
+        big_pile = self._cube.sections()[LANDS_SECTION].create_shuffled_pile().draw_cards(40)
         for section_name in SPELL_SECTIONS:
-            pile = self._cube.sections()[section_name].create_pile()
-            big_pile += pile
+            big_pile += self._cube.sections()[section_name].create_shuffled_pile()
         big_pile.shuffle()
 
         all_boosters = []
