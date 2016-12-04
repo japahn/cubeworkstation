@@ -17,7 +17,7 @@ class TheCube(object):
         ] + ['module%d' % (i + 1) for i in xrange(4)]
         for module_name in cube_modules:
             module = MODULES[module_name]
-            for pool in module.values():
+            for pool in module.all_sections():
                 cube.add_section(pool)
         return cube
 

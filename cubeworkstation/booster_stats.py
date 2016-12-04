@@ -11,7 +11,8 @@ class BoosterStats(object):
         self._boosters_seen += 1
         cards_per_section = defaultdict(int)
         for card in booster.cards():
-            cards_per_section[card.section()] += 1
+            for section_id in card.sections():
+                cards_per_section[section_id] += 1
 
         for section_name in self._section_names:
             cards_in_section = cards_per_section[section_name]

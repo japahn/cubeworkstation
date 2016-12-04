@@ -26,7 +26,7 @@ class CardPile(object):
         self._cards = sample(self._cards, len(self._cards))
 
     def sort_by_section(self):
-        self._cards.sort(key=lambda c: c.section())
+        self._cards.sort(key=lambda c: min(c.sections()))
 
     def draw_cards(self, num_cards, name=None):
         drawn_cards = self._cards[:num_cards]
