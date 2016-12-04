@@ -1,6 +1,7 @@
 from card_pile import CardPile
 from cube import Cube
 from cube_data import MODULES
+from mtgjson import (SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G, SECTION_OTHER)
 
 class TheCube(object):
     def __init__(self):
@@ -16,7 +17,7 @@ class TheCube(object):
         ] + ['module%d' % (i + 1) for i in xrange(4)]
         for module_name in cube_modules:
             module = MODULES[module_name]
-            for pool in module.values():
+            for pool in module.all_sections():
                 cube.add_section(pool)
         return cube
 
@@ -27,13 +28,13 @@ class TheCube(object):
         all_boosters = []
 
         RECIPE_PER_PLAYER = {
-            'mod_main - Section 1. W': 7,
-            'mod_main - Section 2. U': 7,
-            'mod_main - Section 3. B': 7,
-            'mod_main - Section 4. R': 7,
-            'mod_main - Section 5. G': 7,
-            'mod_main - Section 6. Other': 6,
-            'mod_lands - Section 6. Other': 4,
+            ('mod_main', SECTION_W): 7,
+            ('mod_main', SECTION_U): 7,
+            ('mod_main', SECTION_B): 7,
+            ('mod_main', SECTION_R): 7,
+            ('mod_main', SECTION_G): 7,
+            ('mod_main', SECTION_OTHER): 6,
+            ('mod_lands', SECTION_OTHER): 4,
         }
 
         piles = {}
@@ -58,14 +59,14 @@ class TheCube(object):
         return all_boosters
 
     def full_random_draft(self, num_players):
-        LANDS_SECTION = 'mod_lands - Section 6. Other'
+        LANDS_SECTION = ('mod_lands', SECTION_OTHER)
         SPELL_SECTIONS = [
-            'mod_main - Section 1. W',
-            'mod_main - Section 2. U',
-            'mod_main - Section 3. B',
-            'mod_main - Section 4. R',
-            'mod_main - Section 5. G',
-            'mod_main - Section 6. Other',
+            ('mod_main', SECTION_W),
+            ('mod_main', SECTION_U),
+            ('mod_main', SECTION_B),
+            ('mod_main', SECTION_R),
+            ('mod_main', SECTION_G),
+            ('mod_main', SECTION_OTHER),
         ]
 
         big_pile = self._cube.sections()[LANDS_SECTION].create_pile().draw_cards(40)

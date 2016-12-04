@@ -1,33 +1,17 @@
-from collections import defaultdict
 import os
 
 from card import Card
-from card_pool import CardPool
-from cube import Cube
-import mtgjson
+from cube_module import CubeModule
 
 DATA_DIR = 'cubeworkstation/data/card_modules'
 
 def read_text_pool(module_name, file_name):
-    card_pools = {}
-
     with file('%s/%s' % (DATA_DIR, file_name)) as f:
         lines = f.readlines()
     lines = map(lambda s: s.strip(), lines)
     cards = map(lambda s: Card(s), lines)
-    cards_by_section = defaultdict(list)
-    for card in cards:
-        section = mtgjson.get_section(card.name())
-        cards_by_section[section].append(card)
 
-    for section_id, section_cards in cards_by_section.iteritems():
-        section_name = '%s - Section %s' % (module_name, section_id)
-        card_pool = CardPool(section_name, section_cards)
-        card_pools[section_name] = card_pool
-        for card in section_cards:
-            card.set_section(section_name)
-
-    return card_pools
+    return CubeModule(module_name, cards)
 
 
 MODULES = {}
