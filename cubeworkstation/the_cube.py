@@ -12,6 +12,7 @@ class TheCube(object):
         cube = Cube()
         cube_modules = [
             'mod_lands',
+            'mod_lands_simple',
             'mod_main',
             'mod_simple'
         ] + ['module%d' % (i + 1) for i in xrange(4)]
@@ -23,8 +24,6 @@ class TheCube(object):
         return self._cube
 
     def good_stuff_draft(self, num_players):
-        all_boosters = []
-
         RECIPE_PER_PLAYER = {
             ('mod_main', SECTION_W): 7,
             ('mod_main', SECTION_U): 7,
@@ -33,6 +32,19 @@ class TheCube(object):
             ('mod_main', SECTION_G): 7,
             ('mod_main', SECTION_OTHER): 6,
             ('mod_lands', SECTION_OTHER): 4,
+        }
+
+        return build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
+
+    def simple_draft(self, num_players):
+        RECIPE_PER_PLAYER = {
+            ('mod_simple', SECTION_W): 7,
+            ('mod_simple', SECTION_U): 7,
+            ('mod_simple', SECTION_B): 7,
+            ('mod_simple', SECTION_R): 7,
+            ('mod_simple', SECTION_G): 7,
+            ('mod_simple', SECTION_OTHER): 6,
+            ('mod_lands_simple', SECTION_OTHER): 4,
         }
 
         return build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
