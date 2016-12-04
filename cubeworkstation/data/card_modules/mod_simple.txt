@@ -123,7 +123,7 @@ Terrain Elemental
 Thornweald Archer
 Carven Caryatid
 Civic Wayfinder
-Leatherback Baloth
+Sacred Wolf
 Viridian Shaman
 Nylea's Disciple
 Wild Wanderer
@@ -137,7 +137,7 @@ Might of Oaks
 Explore
 Overrun
 Desert Twister
-Blanchwood Armor
+Elephant Guide
 Cloudblazer
 Absorb
 Silumgar, the Drifting Death

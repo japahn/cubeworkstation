@@ -1,12 +1,19 @@
 Mother of Runes
 Emeria Angel
 Wingmate Roc
+Linvala, the Preserver
 Purity
+Day of Judgment
+Wrath of God
+Master of Waves
 Mulldrifter
 Draining Whelk
+Mana Leak
 Fact or Fiction
+Preordain
 Opposition
 Brutal Hordechief
+Nekrataal
 Shriekmaw
 Sidisi, Undead Vizier
 Carnifex Demon
@@ -16,14 +23,16 @@ Taurean Mauler
 Goblin Dark-Dwellers
 Siege-Gang Commander
 Crater Hellion
-Rorix Bladewing
 Combustible Gearhulk
 Lightning Bolt
 Manabarbs
 Eternal Witness
+Tireless Tracker
 Silvos, Rogue Elemental
 Woodland Bellower
 Hornet Queen
+Overwhelming Stampede
+Rancor
 Oona, Queen of the Fae
 Ruric Thar, the Unbowed
 Loxodon Hierarch

@@ -15,11 +15,11 @@ class TheRareCube(object):
 
         mod_main_without_rares = CubeModule.subtract('mod_main_without_rares',
                                                      MODULES['mod_main'],
-                                                     MODULES['rares_in_main'])
+                                                     MODULES['rare'])
 
         cube.add_module(mod_main_without_rares)
         cube.add_module(MODULES['mod_lands'])
-        cube.add_module(MODULES['rares_in_main'])
+        cube.add_module(MODULES['rare'])
         return cube
 
     def cube(self):
@@ -39,7 +39,7 @@ class TheRareCube(object):
 
         all_boosters = build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
 
-        rare_pile = self._cube.modules()['rares_in_main'].pool().create_pile()
+        rare_pile = self._cube.modules()['rare'].pool().create_pile()
         rare_pile.shuffle()
         for booster in all_boosters:
             rare = rare_pile.draw_card()
