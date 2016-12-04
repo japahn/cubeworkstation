@@ -1,4 +1,4 @@
-from card_pile import CardPile
+from booster_building import build_boosters_from_recipe_by_player
 from cube import Cube
 from cube_data import MODULES
 from cube_module import CubeModule
@@ -26,7 +26,6 @@ class TheRareCube(object):
         return self._cube
 
     def good_stuff_draft(self, num_players):
-        all_boosters = []
 
         RECIPE_PER_PLAYER = {
             ('mod_main_without_rares', SECTION_W): 6,
@@ -38,25 +37,7 @@ class TheRareCube(object):
             ('mod_lands', SECTION_OTHER): 6,
         }
 
-        piles = {}
-        for section_name, _ in RECIPE_PER_PLAYER.iteritems():
-            pile = self._cube.sections()[section_name].create_pile()
-            pile.shuffle()
-            piles[section_name] = pile
-
-        for player in xrange(num_players):
-            player_pile = CardPile.empty()
-            for section_name, num_from_section in RECIPE_PER_PLAYER.iteritems():
-                section_pile = piles[section_name]
-                drawn = section_pile.draw_cards(num_from_section)
-                player_pile += drawn
-            player_pile.shuffle()
-            boosters = player_pile / 3
-            all_boosters.extend(boosters)
-
-        for i, booster in enumerate(all_boosters):
-            booster.rename('Booster %d' % (i + 1))
-            booster.sort_by_section()
+        all_boosters = build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
 
         rare_pile = self._cube.modules()['rares_in_main'].pool().create_pile()
         rare_pile.shuffle()

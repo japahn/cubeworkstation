@@ -1,4 +1,4 @@
-from card_pile import CardPile
+from booster_building import build_boosters_from_recipe_by_player
 from cube import Cube
 from cube_data import MODULES
 from mtgjson import (SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G, SECTION_OTHER)
@@ -35,27 +35,7 @@ class TheCube(object):
             ('mod_lands', SECTION_OTHER): 4,
         }
 
-        piles = {}
-        for section_name, _ in RECIPE_PER_PLAYER.iteritems():
-            pile = self._cube.sections()[section_name].create_pile()
-            pile.shuffle()
-            piles[section_name] = pile
-
-        for player in xrange(num_players):
-            player_pile = CardPile.empty()
-            for section_name, num_from_section in RECIPE_PER_PLAYER.iteritems():
-                section_pile = piles[section_name]
-                drawn = section_pile.draw_cards(num_from_section)
-                player_pile += drawn
-            player_pile.shuffle()
-            boosters = player_pile / 3
-            all_boosters.extend(boosters)
-
-        for i, booster in enumerate(all_boosters):
-            booster.rename('Booster %d' % (i + 1))
-            booster.sort_by_section()
-
-        return all_boosters
+        return build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
 
     def full_random_draft(self, num_players):
         LANDS_SECTION = ('mod_lands', SECTION_OTHER)

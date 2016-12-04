@@ -8,8 +8,8 @@ from the_rare_cube import TheRareCube
 RUNS = 1
 OUTPUT_TO_HTML = True
 HTML_LOCATION ='output/boosters.html'
-# CUBE = TheCube()
-CUBE = TheRareCube()
+CUBE = TheCube()
+# CUBE = TheRareCube()
 
 if __name__ == '__main__':
     the_cube = CUBE
