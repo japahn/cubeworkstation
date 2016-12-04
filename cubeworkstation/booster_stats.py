@@ -29,7 +29,7 @@ class BoosterStats(object):
                 and (0 in self._section_distribution[section_name].keys())):
                 continue
 
-            print 'Section %s:' % section_name
+            print 'Section %s:' % str(section_name)
             max_occurrences = max(self._section_distribution[section_name].keys())
             for num_occurrences in xrange(max_occurrences + 1):
                 frequency = self._section_distribution[section_name][num_occurrences]
