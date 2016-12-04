@@ -6,6 +6,14 @@ SECTION_B = '3. B'
 SECTION_R = '4. R'
 SECTION_G = '5. G'
 SECTION_OTHER = '6. Other'
+ALL_SECTIONS = [
+    SECTION_W,
+    SECTION_U,
+    SECTION_B,
+    SECTION_R,
+    SECTION_G,
+    SECTION_OTHER,
+]
 
 _OVERRIDES = {
     # Opponent action

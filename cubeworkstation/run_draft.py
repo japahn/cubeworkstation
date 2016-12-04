@@ -18,7 +18,8 @@ if __name__ == '__main__':
     for r in xrange(RUNS):
         # boosters = the_cube.good_stuff_draft(8)
         # boosters = the_cube.rare_draft(8)
-        boosters = the_cube.simple_draft(4)
+        # boosters = the_cube.simple_draft(4)
+        boosters = the_cube.partially_simple_draft(8, 0.25)
         # boosters = the_cube.full_random_draft(8)
 
         for b in boosters:

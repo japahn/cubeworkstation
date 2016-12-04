@@ -1,8 +1,9 @@
 from booster_building import build_boosters_from_recipe_by_player
+from card_pile import CardPile
 from cube import Cube
 from cube_data import MODULES
 from cube_module import CubeModule
-from mtgjson import (SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G, SECTION_OTHER)
+from mtgjson import (SECTION_W, SECTION_U, SECTION_B, SECTION_R, SECTION_G, SECTION_OTHER, ALL_SECTIONS)
 
 class TheCube(object):
     def __init__(self):
@@ -25,6 +26,11 @@ class TheCube(object):
                                                      MODULES['mod_main'],
                                                      MODULES['rare'])
         cube.add_module(mod_main_without_rares)
+
+        mod_lands_without_simple = CubeModule.subtract('mod_lands_without_simple',
+                                                     MODULES['mod_lands'],
+                                                     MODULES['mod_lands_simple'])
+        cube.add_module(mod_lands_without_simple)
 
         return cube
 
@@ -77,6 +83,72 @@ class TheCube(object):
         }
 
         return build_boosters_from_recipe_by_player(self._cube, RECIPE_PER_PLAYER, num_players)
+
+    # simplicity is [0.0, 1.0], where:
+    #     0.0 is equal to good_stuff_draft()
+    #     1.0 is equal to simple_draft()
+    def partially_simple_draft(self, num_players, simplicity):
+        assert simplicity >= 0.0
+        assert simplicity <= 1.0
+
+        SPELLS_PER_PLAYER = {
+            SECTION_W: 7,
+            SECTION_U: 7,
+            SECTION_B: 7,
+            SECTION_R: 7,
+            SECTION_G: 7,
+            SECTION_OTHER: 6,
+        }
+        LANDS_PER_PLAYER = 4
+
+        piles = {}
+        for color in ALL_SECTIONS:
+            for module in ['mod_main', 'mod_simple']:
+                section_id = (module, color)
+                pile = self._cube.sections()[section_id].create_pile()
+                pile.shuffle()
+                piles[section_id] = pile
+
+        for module in ['mod_lands_simple', 'mod_lands_without_simple']:
+            section_id = (module, SECTION_OTHER)
+            pile = self._cube.sections()[section_id].create_pile()
+            pile.shuffle()
+            piles[section_id] = pile
+
+        for color in ALL_SECTIONS:
+            cards_total, cards_from_simple, cards_from_main = self._card_mixed_distribution(
+                num_players, SPELLS_PER_PLAYER[color], simplicity)
+
+            piles[color] = (piles[('mod_main', color)].draw_cards(cards_from_main)
+                            + piles[('mod_simple', color)].draw_cards(cards_from_simple))
+            piles[color].shuffle()
+
+        cards_total, cards_from_simple, cards_from_main = self._card_mixed_distribution(
+            num_players, LANDS_PER_PLAYER, simplicity)
+        piles['lands'] = (piles[('mod_lands_without_simple', color)].draw_cards(cards_from_main)
+                          + piles[('mod_lands_simple', color)].draw_cards(cards_from_simple))
+        piles['lands'].shuffle()
+
+        all_boosters = []
+        for _ in xrange(num_players):
+            player_pile = CardPile.empty()
+            for color in ALL_SECTIONS:
+                player_pile += piles[color].draw_cards(SPELLS_PER_PLAYER[color])
+            player_pile += piles['lands'].draw_cards(LANDS_PER_PLAYER)
+            player_pile.shuffle()
+
+            all_boosters.extend(player_pile / 3)
+
+        for booster in all_boosters:
+            booster.sort_by_section()
+
+        return all_boosters
+
+    def _card_mixed_distribution(self, num_players, cards_per_player, simplicity):
+        cards_total = cards_per_player * num_players
+        cards_from_simple = int(simplicity * cards_total)
+        cards_from_main = cards_total - cards_from_simple
+        return cards_total, cards_from_simple, cards_from_main
 
     def full_random_draft(self, num_players):
         LANDS_SECTION = ('mod_lands', SECTION_OTHER)
